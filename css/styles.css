@@ -1,0 +1,103 @@
+/* Global Styles */
+#content{
+	padding:15px 15px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	text-shadow: 0 1px 0 white;
+	color: #515151;
+	line-height:18px;
+}
+
+/* Overwrites */
+.x-tabbar-dark .x-tab{
+	color:#515151 !important;
+	text-shadow: 0 1px 0 white;
+}
+.x-tabbar-dark{
+	background-image: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);
+	background-image: linear-gradient(#466890,#1f2f41 2%,#080c11);
+}
+.x-tabbar-dark.x-docked-top .x-tab-active {
+	background-color:#e2e2e2 !important;
+	background-image:none !important;
+}
+.x-button-label{
+	font-size:.7em !important;
+}
+.x-tabbar.x-docked-top{
+	border-bottom: #adadad solid 1px !important;
+}
+/* Home Styles */
+div.home{
+			background:transparent url(http://www.aldomatic.com/m/images/app/bg_body.gif) top left;
+		}
+			p.tagline{
+				font-family: Helvetica, Arial, sans-serif;
+				font-size: 16px;
+				color: #515151;
+				position: relative;
+				top: 0px;
+				line-height: 17px;
+				text-shadow: 0 1px 0 white;
+				padding-top:15px;
+			}
+			#header{
+				background: transparent url(http://www.aldomatic.com/m/images/app/bg_header.gif) top left repeat-x;
+				width:100%;
+				text-align:center;
+				height:130px;
+			}
+			.checklist{
+				margin-bottom:30px;
+			}
+			.checklist li{
+					background: url(http://www.aldomatic.com/images/light/ico_check.png) top left no-repeat;
+					margin-bottom:5px;
+					padding-left:20px;
+					border-bottom:dotted #ccc 1px;
+					padding-bottom:3px;
+					font-size:13px;
+				}
+					
+/* Work Styles */
+	div.work{
+			background:transparent url(http://www.aldomatic.com/m/images/app/bg_body.gif) top left;
+		}
+			#headerTitle{
+				background: transparent url(http://www.aldomatic.com/m/images/app/bg_header.gif) top left repeat-x;
+				width:100%;
+				text-align:center;
+				height:53px;
+				}
+				#headerTitle h2{
+					position:relative;
+					top:15px;
+					color:#515151;
+					text-shadow: 0 1px 0 white;
+					font-size:22px;
+				}
+				
+
+/* Twitter */
+div.tweet{
+	padding:5px;
+	border-bottom:dotted #ccc 1px;
+}
+div.tweet p{
+	text-shadow: 0 1px 0 white;
+	font-size:13px;
+}
+/* Portfolio */
+div.work{
+	padding:5px 5px 20px 5px;
+	border-bottom:dotted #ccc 1px;
+	font-size:12px;
+}
+div.work h3{
+	font-size:16px;
+	font-weight:bold;
+	text-shadow: 0 1px 0 white;
+	margin-top:10px;
+}
+div.work img{
+}
